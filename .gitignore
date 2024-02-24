@@ -9,9 +9,8 @@
 test/*
 data/*
 output/*
-target/*
+target/awsdemo
 synch
-*.sh
 syncmaster
 example/*
 example/

@@ -1,0 +1,5 @@
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJjb3JwIjoiTWljdnMiLCJpYXQiOjE3MDg2N
+addr: :80
+region: ap-east-1
+secretMySQLName: dev/demo/mysql
+secretRedisName: dev/demo/redis
