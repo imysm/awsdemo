@@ -13,7 +13,7 @@ import (
 func Cache(c *gin.Context) {
 	r := secret.GetRedisOption(viper.GetString("secretRedisName"), viper.GetString("region"))
 
-	optsRedis := &connector.RedisOptions{Addr: r.Host, Username: r.Username, Password: r.Password}
+	optsRedis := &connector.RedisOptions{Addr: r.Host + r.Port, Username: r.Username, Password: r.Password}
 
 	//log.Println(optsRedis)
 	rdb := connector.NewRedis(optsRedis)
